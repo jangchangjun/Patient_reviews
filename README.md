@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=soft&color=auto&height=300&section=header&text=Patient%20Reviews💊&fontSize=90)<br/>
+![header](https://capsule-render.vercel.app/api?type=soft&color=auto&height=300&section=header&text=Patient%20Reviews😷&fontSize=90)<br/>
 # MobileBERT를 활용한 환자 리뷰의 긍,부정 예측
 
 ## 1. 개요
