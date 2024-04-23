@@ -20,6 +20,8 @@
 
 ### 2.1 데이터 구성
 
+[Patient Reviews 데이터셋](https://www.kaggle.com/datasets/thedevastator/german-2021-patient-reviews-and-ratings-of-docto?resource=download)
+
 - 데이터명
 
   
