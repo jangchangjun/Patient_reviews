@@ -45,3 +45,9 @@
 | .. |...|...|
 | 439278 | 1.0 |Prof. Herbort hat mein vorderes KB sehr gut operiert.Gute Aufklärung (welche Sehne wird genommen), ...|
 | 439279 | 1.0 |Beste Kompetenz. Vertrauensverhältnis von Beginn an sehrhoch. Erklärung 1a. &lt;br /&gt; 100% Zufriedenhe...|
+
+## 2.2 데이터 분석
+
+- 총 리뷰의 수
+
+
