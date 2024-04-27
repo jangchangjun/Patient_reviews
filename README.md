@@ -97,17 +97,21 @@
 
 ### 추출 데이터 분석
 
-- 긍, 부정 분포
+**긍, 부정 분포**
+
+- 분포 시각화
 
 <div><img src ="image/randomcount.png"></div><br/>
 
 추출 데이터의 긍, 부정 분포를 시각화한 결과 긍정 데이터가 약 4.5만건, 부정데이터가 약 5천건 정도 있는 것으로 보인다.
 
+- 분포 수
 
 <div><img src ="image/randomcount2.png"></div><br/>
 
 보다 더 정확한 분포를 알기 위해 수를 세어본 결과 긍정데이터가 44406, 부정데이터가 5594건이 있는 것으로 나타난다.
 
+- 분포도
 
 <div><img src ="image/randompie.png"></div><br/>
 
