@@ -12,7 +12,11 @@
 의료 서비스의 수준은 곧 환자의 재방문 의사로 이어짐을 알 수 있다.
 이는 의료 수준의 차별성으로는 다른 병원과의 차이를 두드러지게 낼 수 없는 요즘,
 점차 의료 서비스의 중요성이 대두되고 있음을 알려주는 지표로써 작용한다. 
+
+
 ### 1.2 프로젝트 목표
+
+
 위에서 말했듯, 의료 서비스는 점점 대두되고 있다.
 그래서 이 프로젝트는 의사에 대한 환자의 리뷰를 입력받고 긍, 부정데이터로 나눈
 뒤 다른 환자의 리뷰를 입력했을 때
@@ -23,11 +27,14 @@
 -  부정적 리뷰의 내용을 분석해 이를 토대로 의료서비스를 개편해감으로써 더 나은 서비스 품질을 기대 할 수 있다.
 -  환자들의 리뷰를 분석하고 이해하며 의료진과 환자와의 의사소통을 보다 원활히 할 수 있다.
 
+
 ## 2.원시 데이터
 
 ### 2.1 데이터 구성
 
+
 [Patient Reviews 데이터셋](https://www.kaggle.com/datasets/thedevastator/german-2021-patient-reviews-and-ratings-of-docto?resource=download)
+
 
 - 데이터명
 
@@ -46,38 +53,55 @@
 | 439278 | 1.0 |Prof. Herbort hat mein vorderes KB sehr gut operiert.Gute Aufklärung (welche Sehne wird genommen), ...|
 | 439279 | 1.0 |Beste Kompetenz. Vertrauensverhältnis von Beginn an sehrhoch. Erklärung 1a. &lt;br /&gt; 100% Zufriedenhe...|
 
+
 ## 2.2 데이터 분석
+
 
 **총 리뷰의 수**
 
+
 <div><img src = "image/데이터개수.png"></div>
-총 리뷰수는 439280 건임을 알 수 있다.
+  총 리뷰수는 439280 건임을 알 수 있다.
 
 
-**rating 분포**
+- rating 분포
+
 
 <div><img src = "image/rating.png"></div>
-환자의 의사에 대한 점수는 1(최상)이 약 350000건, 나머지 점수들은 각각 5만건 이하로 측정되었다.
+  환자의 의사에 대한 점수는 1(최상)이 약 350000건, 나머지 점수들은 각각 5만건 이하로 측정되었다.
 
-**긍,부정 예측**
 
-- 긍, 부정 분리
+- 긍,부정 예측
+
+
+ 긍, 부정 분리
+
   
 <div><img src = "image/posi_nega.png"></div>
-이 프로젝트에서는 rating, 즉 환자의 평점이 4점이상이면 negative, 3점 이하면 positive로 나눠 분석을 진행하였다.
+  이 프로젝트에서는 rating, 즉 환자의 평점이 4점이상이면 negative, 3점 이하면 positive로 나눠 분석을 진행하였다.
 
-- 시각화
 
+ - 시각화
+
+  
 <div><img src = "image/posi_nega2.png"></div>
-시각화를 진행한 결과, 긍정 데이터가 약 38만건 부정 데이터는 약 5만건의 데이터가 있음을 알 수 있다.
+
+
+ 시각화를 진행한 결과, 긍정 데이터가 약 38만건 부정 데이터는 약 5만건의 데이터가 있음을 알 수 있다.
+
 
 <div><img src ="image/pie2.png"></div>
+
+
 원그래프를 이용해 데이터 분포를 알아본결과 긍정데이터는 약 89퍼센트, 부정데이터는 약 11퍼센트를 차지하고 있음을 알 수 있었다.
 
-**데이터 추출**
+
+- 데이터 추출
+
 원시 데이터 분석을 끝낸 후, 프로젝트의 목표인 환자 리뷰의 긍,부정 예측을 위해 기존 원시데이터에서 학습을 위한 데이터로 5만건의 데이터를 랜덤으로 추출하였다.
 
-<div><img src ="image/pie2.png"></div>
+
+<div><img src ="image/.png"></div>
 
 
 
