@@ -50,11 +50,36 @@
 
 **총 리뷰의 수**
 
-![리뷰수](image/데이터개수.png)
+<div><img src = "image/데이터개수.png"></div>
 총 리뷰수는 439280 건임을 알 수 있다.
 
+
 **rating 분포**
-<div><img src = "image/rating"></div>
+
+<div><img src = "image/rating.png"></div>
+환자의 의사에 대한 점수는 1(최상)이 약 350000건, 나머지 점수들은 각각 5만건 이하로 측정되었다.
+
+**긍,부정 예측
+
+- 긍, 부정 분리
+  
+<div><img src = "image/posi_nega.png"></div>
+이 프로젝트에서는 rating, 즉 환자의 평점이 4점이상이면 negative, 3점 이하면 positive로 나눠 분석을 진행하였다.
+
+- 시각화
+
+<div><img src = "image/posi_nega2.png"></div>
+시각화를 진행한 결과, 긍정 데이터가 약 38만건 부정 데이터는 약 5만건의 데이터가 있음을 알 수 있다.
+
+<div><img src = "image/pie.png"></div>
+이후, 원그래프를 이용해 데이터 분포를 알아본결과 긍정데이터는 약 89퍼센트, 부정데이터는 약 11퍼센트를 차지하고 있음을 알 수 있었다.
+
+
+
+
+
+
+
 
 
 
